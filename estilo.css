@@ -1,0 +1,174 @@
+:root{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+#fondofinal{
+    background-color: beige;
+}
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(fondito/celeste.png);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+#cabecita img{
+    height: 100%;
+}
+.pegado{
+    position: sticky;
+    z-index: 20;
+    top: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    background-color: lightblue;
+    text-align: center;
+    text-decoration: overline;
+}
+#zxc1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    justify-items: right;
+}
+#zxc2{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-self: right;
+    height: 40px;
+}
+.barra{
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    color: white;
+    border-radius: 3px;
+    width: 100px;
+    text-align: center;
+    margin-right: 30px;
+    font-size: 17px;
+}
+.barra:hover{
+    background-color: white;
+    color: black;
+}
+.asd{
+    margin-top: 150px
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+#pp>h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+}
+#pp{
+    width: 60%;
+    justify-self: center;
+    margin-left: 40px;
+}
+.encajar{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.encajar iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+aside{
+    width: 30%;
+    background-color: rgb(196, 196, 152);
+    text-align: center;
+    border-top: 100px solid black;
+    margin-right: 10px;
+}
+aside img{
+    max-width: 70%;
+    margin-top: 50px;
+}
+#videito{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    opacity: 60%;
+}
+#videoxd{
+    z-index: 10;
+}
+#textito{
+    z-index: 50;
+}
+#textito>h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: beige;
+}
+#textito>p{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgb(193, 208, 238);
+    padding: 10px;
+    width: 70%;
+    justify-self: center;
+}
+#nose{
+    display: flex;
+}
+#po{
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightseagreen;
+    color: white;
+    margin-top: 10px;
+}
+.log{
+    color: white;
+    margin: 5px;
+    margin-right: 10px;
+}
+#jajaj{
+    font-size: 20px;
+}
+#demas{
+    margin-right: 100px;
+}
+pre{
+    text-align: center;
+}
+#unpoquito{
+    margin-left: 40px;
+    width: 60%;
+}
+.encajar>video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
